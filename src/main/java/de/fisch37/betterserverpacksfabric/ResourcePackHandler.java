@@ -21,7 +21,7 @@ public class ResourcePackHandler {
                 try {
                     Thread.sleep(2000);
                     
-                    Text message = Text.literal("即将传输资源包").formatted(Formatting.GREEN);
+                    Text message = Text.literal("即将为您传输资源包").formatted(Formatting.GREEN);
                     handler.sendPacket(new OverlayMessageS2CPacket(message));
                     
                     Thread.sleep(1000);
